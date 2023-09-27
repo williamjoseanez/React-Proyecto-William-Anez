@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 const CounterPresentacional = ( {sumar, contador, restar, nombre, setNombre} ) => {
 
   return (
-    <div>
+    <div className="centrar">
       <Button variant="outlined" onClick={sumar}>sumar</Button>
       {/* <button onClick={sumar}>sumar</button> */}
       <h4> {contador} </h4>
