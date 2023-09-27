@@ -1,0 +1,13 @@
+.centrar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
