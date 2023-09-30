@@ -1,10 +1,10 @@
 import ItemList from "./ItemList";
 
-const ItemListContainer = (saludo) => {
+const ItemListContainer = ({saludo}) => {
   
   return (
     <div>
-      <h2 className="center"> Hola, traigo las props {saludo.saludo}</h2>
+      <h2 className="center"> Hola, traigo las props {saludo}</h2>
     
       <ItemList />
       </div>);
