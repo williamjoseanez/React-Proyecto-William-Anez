@@ -1,10 +1,13 @@
 import ItemList from "./ItemList";
 
-const ItemListContainer = () => {
-
-  console.log("me monte")
+const ItemListContainer = (saludo) => {
   
-  return <ItemList />;
+  return (
+    <div>
+      <h2 className="center"> Hola, traigo las props {saludo.saludo}</h2>
+    
+      <ItemList />
+      </div>);
 };
 
 export default ItemListContainer;
