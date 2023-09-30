@@ -33,4 +33,5 @@
   .logo{
     width: 50px;
     display: block;
+    border-radius: 45%;
   }

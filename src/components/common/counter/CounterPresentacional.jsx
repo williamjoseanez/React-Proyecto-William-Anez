@@ -12,7 +12,7 @@ const CounterPresentacional = ( {sumar, contador, restar, nombre, setNombre} ) =
       
 
       <h4>{nombre}</h4>
-      <Button variant="contained" disableElevation onClick={ () =>setNombre("juancito")}>
+      <Button variant="contained" disableElevation onClick={() => setNombre("juancito")}>
       Cambiar nombre</Button>
       {/* <button onClick={()=>setNombre("juancito")}>Cambiar nombre</button> */}
     </div>

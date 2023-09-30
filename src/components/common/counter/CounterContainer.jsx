@@ -18,6 +18,7 @@ const CounterContainer = () => {
       setContador(contador - 1);
     }
   };
+  
 
  
   return (
