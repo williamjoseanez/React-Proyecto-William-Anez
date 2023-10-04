@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <ItemListContainer saludo={` "Bienvenido"`} />
+      <ItemListContainer saludo={` "Bienvenidos!!!"`} />
       <CounterContainer />
       <MaterialUi />
     </>
